@@ -1,0 +1,35 @@
+.order {
+  padding: 40px;
+  margin: 20px 0;
+  background-color: white;
+  border: 1px solid lightgray;
+  position: relative;
+}
+
+.order-id {
+  position: absolute;
+  row-gap: 40px;
+  right: 20px;
+}
+
+.order-total {
+  font-weight: 500;
+  text-align: right;
+}
+
+@media screen and (max-width: 768px) {
+  .order {
+    padding: 20px;
+  }
+
+  .order-id {
+    top: 20px;
+    right: 10px;
+    row-gap: 20px;
+  }
+
+  .order-total {
+    text-align: left;
+    margin-top: 20px;
+  }
+}
